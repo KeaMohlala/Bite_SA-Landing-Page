@@ -1,0 +1,129 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  padding: 5px;
+  font-size: xxx-large;
+}
+
+h3 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2eb872;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-style: normal;
+  margin-right: 20px;
+}
+
+p {
+  font-family: var(--font-family);
+}
+button:hover {
+  background-color: #a3de83;
+}
+
+body {
+  background-color: #feffea;
+}
+
+.homepage-links {
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.features-link:hover {
+  color: #a3de83;
+}
+
+.about-link:hover {
+  color: #a3de83;
+}
+
+.features-link,
+.about-link {
+  padding: 10px;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: 500;
+  color: #2eb872;
+}
+
+.intro {
+  margin-top: 180px;
+  padding: 10px;
+}
+
+.features-section {
+  margin-top: 80px;
+  margin-left: 60px;
+  padding: 20px;
+}
+
+.about-section {
+  margin-top: 80px;
+}
+
+.button-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.non-feature {
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.about-row {
+  display: block;
+  margin: 0;
+}
+
+.email-link {
+  text-decoration: none;
+  color: #2eb872;
+  font-family: var(--font-family);
+}
+
+.email-link:hover {
+  color: #a3de83;
+}
+
+.codebase-link {
+  text-decoration: none;
+  color: #2eb872;
+}
+
+.codebase-link:hover {
+  color: #a3de83;
+}
+
+.contact {
+  font-family: var(--font-family);
+}
